@@ -1,0 +1,51 @@
+*{
+    text-align: center;     /*모든요소 가운데 정렬*/
+}
+.warning{   /*경고 컨테이너 설정*/
+    margin: 1rem;   /*여백 설정*/
+    border-width: 0.1rem;   /*테두리 굵기 설정*/
+    border-style: solid;    /*테두리 스타일 설정*/
+    border-color: black;    /*테두리 색 설정*/
+    max-width: 10rem;   /*최고 너비 설정*/
+}
+.warning>h3{    /*경고 제목 설정*/
+    margin: 0px;    /*여백 설정*/
+    padding: 0px;    /*여백 설정*/
+    background-color: red;  /*배경색 설정*/
+}
+.greeting{  /*인사 컨테이너 설정*/
+    margin: 1rem;   /*여백 설정*/
+    border-width: 0.1rem;   /*테두리 굵기 설정*/
+    border-style: solid;    /*테두리 스타일 설정*/
+    border-color: black;    /*테두리 색 설정*/
+    max-width: 10rem;   /*최고 너비 설정*/
+}
+.greeting>h3{   /*인사 제목 설정*/
+    margin: 0px;    /*여백 설정*/
+    padding: 0px;   /*여백 설정*/
+    background-color: cyan;    /*배경색 설정*/
+}
+.error{ /*에러 컨테이너 설정*/
+    margin: 1rem;   /*여백 설정*/
+    border-width: 0.1rem;   /*테두리 굵기 설정*/
+    border-style: solid;    /*테두리 스타일 설정*/
+    border-color: black;    /*테두리 색 설정*/
+    max-width: 10rem;   /*최고 너비 설정*/
+}
+.error>h3{  /*에러 제목 설정*/
+    margin: 0px;    /*여백 설정*/
+    padding: 0px;   /*여백 설정*/
+    background-color: gainsboro;    /*배경색 설정*/
+}
+.notice{    /*공지 컨테이너 설정*/
+    margin: 1rem;   /*여백 설정*/
+    border-width: 0.1rem;   /*테두리 굵기 설정*/
+    border-style: solid;    /*테두리 스타일 설정*/
+    border-color: black;    /*테두리 색 설정*/
+    max-width: 10rem;   /*최고 너비 설정*/
+}
+.notice>h3{ /*공지 제목 설정*/
+    margin: 0px;    /*여백 설정*/
+    padding: 0px;   /*여백 설정*/
+    background-color: yellowgreen;  /*배경색 설정*/
+}
