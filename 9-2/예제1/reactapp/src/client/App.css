@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(255, 255, 188);
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    border: 1px solid blue;
+    margin: 3px
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 3px;
+    color: blue;
+}
+
+button {
+    width: 5rem;
+    background-color: darkblue;
+    color: white;
+    padding: 0.4rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    margin: 3px
+}
